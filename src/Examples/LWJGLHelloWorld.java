@@ -1,6 +1,5 @@
 package Examples;
 
-import org.lwjgl.opengl.GL11.*;
 import org.lwjgl.opengl.*;
 import org.lwjgl.*;
 
@@ -16,7 +15,12 @@ public class LWJGLHelloWorld {
 			e.printStackTrace();
 		}
 		
+		// Initialization code OpenGL
+		
 		while(!Display.isCloseRequested()){
+		
+			// Render
+			
 			Display.update();
 			Display.sync(60);
 		}
@@ -26,7 +30,7 @@ public class LWJGLHelloWorld {
 	
 	public static void main(String[] args) {
 		new LWJGLHelloWorld();
-		
+
 	}
 
 }
