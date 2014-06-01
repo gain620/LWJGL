@@ -10,5 +10,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/EclipseWorkbench/LWJGL/lib/jars/lwjgl_util.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Administrator/Desktop/EclipseWorkbench/LWJGL/lib/jars/slick-util.jar"/>
+	<classpathentry kind="lib" path="lib/jars/jinput.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
